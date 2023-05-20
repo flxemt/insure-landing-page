@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Frontend Mentor | Insure landing page</title>
+    <script src="https://kit.fontawesome.com/56471ca088.js" crossorigin="anonymous" defer></script>
+  </head>
+  <body class="text-body leading-body">
+    <header class="bg-white p-6 relative xl:py-5 xl:relative xl:z-10">
+      <div class="max-w-container mx-auto flex justify-between items-center">
+        <img src="/logo.svg" alt="Logo" />
+        <button class="xl:hidden" aria-label="Expand menu" id="nav-btn">
+          <img src="/icon-hamburger.svg" alt="Hamburger icon" id="btn-open" />
+          <img src="/icon-close.svg" class="hidden" alt="Close icon" id="btn-close" />
+        </button>
+        <nav class="hidden xl:block">
+          <ul class="flex items-center gap-6 font-bold text-[0.8125rem] leading-[0.9375rem] tracking-md text-dark-gray uppercase text-center">
+            <li><a href="#" class="hover:text-dark transition-colors">How we work</a></li>
+            <li><a href="#" class="hover:text-dark transition-colors">Blog</a></li>
+            <li><a href="#" class="hover:text-dark transition-colors">Account</a></li>
+            <li class="ml-2"><a href="#" class="inline-block text-dark w-full border-[2px] border-dark py-[0.6875rem] px-7 hover:bg-dark hover:text-white transition-colors">View plans</a></li>
+          </ul>
+        </nav>
+      </div>
+      <nav class="nav-items absolute z-10 top-0 left-0 w-full bg-dark bg-[size:100%] mt-20 pt-10 px-6 bg-pattern-mobile-nav bg-no-repeat bg-bottom xl:hidden" id="nav">
+        <ul class="flex flex-col gap-6 font-bold text-[1.25rem] leading-h4 tracking-[1.36px] text-white uppercase text-center">
+          <li><a href="#">How we work</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Account</a></li>
+          <li><a href="#" class="inline-block w-full border-[1px] border-white py-2">View plans</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="relative before:absolute before:top-[797px] before:right-0 before:w-[123px] before:h-[352px] before:bg-pattern-intro-right-mobile before:bg-no-repeat xl:before:bg-pattern-intro-left-desktop xl:before:left-0 xl:before:w-[195px] xl:before:h-[650px] xl:before:top-[430px] xl:after:absolute xl:after:bg-pattern-intro-right-desktop xl:after:top-[-108px] xl:after:right-0 xl:after:w-[435px] xl:after:h-[650px] xl:after:bg-no-repeat xl:after:bg-center">
+      <section class="bg-dark-purple xl:px-6 xl:max-h-[600px]">
+        <div class="xl:max-w-container xl:mx-auto flex flex-col xl:items-start xl:flex-row xl:justify-between xl:gap-[1.875rem]">
+          <img src="/image-intro-mobile.jpg" class="xl:max-w-[540px] xl:order-1 xl:translate-y-[105px]" alt="Intro mobile" />
+          <div class="hero-section px-6 py-[5.75rem] text-center text-white bg-pattern-intro-left-mobile bg-no-repeat xl:mt-[6.5rem] xl:text-left xl:px-0 xl:py-0 xl:bg-none xl:max-w-[540px] xl:relative xl:before:absolute xl:before:bg-white xl:before:w-[150px] xl:before:h-[1px]">
+            <h1 class="font-headings text-h3 leading-h3 tracking-sm xl:mt-16 xl:text-h1 xl:leading-h1 xl:tracking-h1">
+              <span>Humanizing</span>
+              <span class="xl:block">your insurance.</span>
+            </h1>
+            <p class="mt-4 xl:mt-7">Get your life insurance coverage easier and faster. We blend our expertise and technology to help you find the plan that’s right for you. Ensure you and your loved ones are protected.</p>
+            <a href="#" class="inline-block mt-8 uppercase tracking-md font-bold text-[0.8125rem] leading-[0.9375rem] border-[2px] px-7 py-3 hover:bg-white hover:text-dark transition-colors">View plans</a>
+          </div>
+        </div>
+      </section>
+      <section class="px-6 my-[8.75rem] xl:mt-[19rem] xl:mb-[9.375rem]">
+        <div class="max-w-container mx-auto text-center relative before:left-[50%] before:-translate-x-1/2 before:absolute before:bg-pink before:w-[150px] before:h-[1px] xl:text-left xl:before:left-0 xl:before:translate-x-0">
+          <h2 class="font-headings text-h3 leading-h3 tracking-sm pt-10 xl:pt-16 xl:text-h1 xl:leading-h1 xl:tracking-h1">We’re different</h2>
+          <div class="mt-20 text-dark-gray flex flex-col gap-14 xl:mt-24 xl:flex-row xl:gap-[1.875rem]">
+            <div class="flex-1 flex flex-col items-center xl:items-start">
+              <img src="/icon-snappy-process.svg" alt="Snappy Process" />
+              <h3 class="mt-8 font-headings text-h5 leading-h5 tracking-h5 text-dark">Snappy Process</h3>
+              <p class="mt-4">Our application process can be completed in minutes, not hours. Don’t get stuck filling in tedious forms.</p>
+            </div>
+            <div class="flex-1 flex flex-col items-center xl:items-start">
+              <img src="/icon-affordable-prices.svg" alt="Affordable Prices" />
+              <h3 class="mt-8 font-headings text-h5 leading-h5 tracking-h5 text-dark">Affordable Prices</h3>
+              <p class="mt-4">We don’t want you worrying about high monthly costs. Our prices may be low, but we still offer the best coverage possible.</p>
+            </div>
+            <div class="flex-1 flex flex-col items-center xl:items-start">
+              <img src="/icon-people-first.svg" alt="People First" />
+              <h3 class="mt-8 font-headings text-h5 leading-h5 tracking-h5 text-dark">People First</h3>
+              <p class="mt-4">Our plans aren’t full of conditions and clauses to prevent payouts. We make sure you’re covered when you need it.</p>
+            </div>
+          </div>
+          <div class="mt-[8.75rem] bg-dark-purple px-6 py-[4.5rem] text-center text-white bg-pattern-how-we-work-mobile bg-no-repeat bg-right-top flex flex-col justify-between items-center xl:flex-row xl:text-left xl:px-20 xl:py-[4.25rem] xl:bg-pattern-how-we-work-desktop xl:mt-[9.875rem]">
+            <h2 class="font-headings text-h4 leading-h4 tracking-[-0.56px] xl:text-h2 xl:leading-h2 xl:tracking-[-0.78px] xl:max-w-[475px]">Find out more about how we work</h2>
+            <a href="#" class="inline-block mt-8 uppercase tracking-md font-bold text-[0.8125rem] leading-[0.9375rem] border-[2px] px-7 py-3 hover:bg-white hover:text-dark transition-colors xl:mt-0">How we work</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="px-6 py-[5.5rem] bg-light-gray bg-pattern-footer-mobile bg-no-repeat bg-left-top text-center xl:bg-pattern-footer-desktop xl:py-16">
+      <div class="max-w-container mx-auto">
+        <div class="flex flex-col justify-between items-center gap-8 pb-10 border-b-[1px] border-line xl:flex-row xl:pb-8">
+          <img src="/logo.svg" alt="Logo" />
+          <div class="flex gap-4 text-dark-gray text-[1.5rem]">
+            <a href="#" class="hover:text-dark transition-colors" aria-label="Facebook">
+              <i class="fa-brands fa-square-facebook"></i>
+            </a>
+            <a href="#" class="hover:text-dark transition-colors" aria-label="Twitter">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="#" class="hover:text-dark transition-colors" aria-label="Pinterest">
+              <i class="fa-brands fa-pinterest"></i>
+            </a>
+            <a href="#" class="hover:text-dark transition-colors" aria-label="Instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+        <div class="mt-10 flex flex-col gap-10 uppercase font-bold text-[0.8125rem] leading-[0.9375rem] tracking-md text-dark-purple xl:mt-12 xl:text-left xl:flex-row xl:gap-[1.875rem]">
+          <div class="flex-1">
+            <h3 class="text-dark-gray">Our company</h3>
+            <ul class="mt-9 flex flex-col gap-4">
+              <li><a href="#">How we work</a></li>
+              <li><a href="#">Why Insure?</a></li>
+              <li><a href="#">View plans</a></li>
+              <li><a href="#">Reviews</a></li>
+            </ul>
+          </div>
+          <div class="flex-1">
+            <h3 class="text-dark-gray">Help me</h3>
+            <ul class="mt-9 flex flex-col gap-4">
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Terms of use</a></li>
+              <li><a href="#">Privacy policy</a></li>
+              <li><a href="#">Cookies</a></li>
+            </ul>
+          </div>
+          <div class="flex-1">
+            <h3 class="text-dark-gray">Contact</h3>
+            <ul class="mt-9 flex flex-col gap-4">
+              <li><a href="#">Sales</a></li>
+              <li><a href="#">Support</a></li>
+              <li><a href="#">Live chat</a></li>
+            </ul>
+          </div>
+          <div class="flex-1">
+            <h3 class="text-dark-gray">Others</h3>
+            <ul class="mt-9 flex flex-col gap-4">
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Press</a></li>
+              <li><a href="#">Licenses</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

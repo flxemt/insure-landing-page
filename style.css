@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+footer li > a:hover {
+  text-decoration: underline;
+}
+
+.nav-items {
+  min-height: calc(100vh - 80px);
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.25s, visibility 0.25s;
+}
+
+.opened {
+  visibility: visible;
+  opacity: 1;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+.hidden {
+  display: none;
+}
+
+@media (min-width: 1110px) {
+  .hero-section {
+    background-image: none;
+  }
+}
