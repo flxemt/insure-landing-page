@@ -23,12 +23,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](https://i.imgur.com/JdPRZwH.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/insure-landing-page-using-tailwind-css-W2qJ4etyEI](https://www.frontendmentor.io/solutions/insure-landing-page-using-tailwind-css-W2qJ4etyEI)
+- Live Site URL: [https://insure-tailwind.netlify.app/](https://insure-tailwind.netlify.app/)
 
 ## My process
 
@@ -41,5 +41,5 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@flxemt](https://www.frontendmentor.io/profile/flxemt)
-- Twitter - [@flxemt](https://www.twitter.com/flxemt)
+- Frontend Mentor - [@lumiuko](https://www.frontendmentor.io/profile/lumiuko)
+- Twitter - [@lumiuko](https://www.twitter.com/lumiuko)
